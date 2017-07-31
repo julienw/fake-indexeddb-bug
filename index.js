@@ -18,4 +18,5 @@ openDb();
 
 openDb().then(db => {
   db.transaction("books");
+  console.log('All good!');
 });
