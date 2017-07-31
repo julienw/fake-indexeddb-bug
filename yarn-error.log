@@ -1,0 +1,36 @@
+Arguments: 
+  /home/julien/.nvm/versions/node/v7.10.0/bin/node /home/julien/.yarn/bin/yarn.js add fake-indexeddb
+
+PATH: 
+  /home/julien/.cargo/bin:/home/julien/bin:/home/julien/.yarn/bin:/home/julien/.nvm/versions/node/v7.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/julien/node_modules/.bin:/home/julien/.gem/ruby/2.3.0/bin:/home/julien/travail/git/git-cinnabar:/home/julien/.mozbuild/version-control-tools/git/commands
+
+Yarn version: 
+  0.28.1
+
+Node version: 
+  7.10.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "fake-indexeddb-bug",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Julien Wajsberg <felash@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/fake-indexeddb: ETIMEDOUT
+      at Timeout._onTimeout (/home/julien/.yarn/lib/yarn-cli.js:115313:19)
+      at ontimeout (timers.js:386:14)
+      at tryOnTimeout (timers.js:250:5)
+      at Timer.listOnTimeout (timers.js:214:5)

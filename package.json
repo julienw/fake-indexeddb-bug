@@ -1,0 +1,10 @@
+{
+  "name": "fake-indexeddb-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Julien Wajsberg <felash@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fake-indexeddb": "^2.0.3"
+  }
+}
