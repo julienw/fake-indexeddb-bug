@@ -1,6 +1,6 @@
 function openDb() {
   return new Promise((resolve, reject) => {
-    var request = indexedDB.open("test", 3);
+    var request = FakeIndexedDB.open("test", 3);
     request.onupgradeneeded = function () {
       var db = request.result;
       var store = db.createObjectStore("books", {keyPath: "isbn"});
